@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Sebastián Gallego - Bastianburs" />
+    <title>ATM</title>
+    <link rel="shortcut icon" href="img/icons/atm.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container_general">
+        <img src="img/cajero.gif" />
+
+        <div>
+            <input class="number" type="number" id="dinero">
+            <input class="submit" type="button" value="Extraer" id="extraer">
+        </div>
+        <div>
+            <input class="saldo" type="button" value="Consultar Saldo" id="cantidad" />
+            <div><strong>Saldo disponible: </strong></div>
+            <div id="saldo"></div>
+        </div>
+        <div>
+            <div><strong>Retiro: </strong></div>
+            <div class="resultshow" id="resultado"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/cajero.js"></script>
+</body>
+
+</html>

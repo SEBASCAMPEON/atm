@@ -1,0 +1,60 @@
+body{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;    
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container_general{
+    display: inline-block;
+    background: rgb(232, 232, 232);
+    border-radius: 5px;
+    padding: 8px;
+
+}
+.container_general > div > input{
+    display: inline-block;
+    text-align: center;
+}
+.container_general > div > div{
+    font-size: 1.06em;
+}
+.resultshow{
+    display: inline-block;
+    text-align: center;
+
+}
+.div_text_show{
+    color:rgb(65, 214, 71);
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+    border:1px solid gray;
+    background: #232323;
+
+}
+.submit, .saldo{
+    color:white;
+    padding: .2em;
+    border-radius: 5px;
+}
+input{
+    font-family: 'Rajdhani', sans-serif;
+    color:black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.submit{
+    background: rgb(19, 87, 119);
+    cursor: pointer;
+}
+.saldo{
+    background: rgb(184, 172, 17);
+    cursor: pointer;
+}
+#saldo{
+    color:#246bb5;
+    font-size: 1.2em;
+    font-weight: bold;
+}
